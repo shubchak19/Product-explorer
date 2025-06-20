@@ -27,7 +27,7 @@ export default function Carousel() {
         >
           ‹
         </button>
-        <div className="flex justify-center items-center gap-2 my-10">
+        <div className="flex justify-center items-center gap-2 my-16">
           {testimonialData.map((_, i) => (
             <div
               key={i}
