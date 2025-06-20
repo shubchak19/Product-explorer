@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+/* styles.css */
+.nav-link {
+  @apply relative cursor-pointer after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[3px] after:rounded-full after:bg-blue-500 after:w-0 after:transition-all after:duration-300;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+.nav-link.active::after {
+  width: 100%;
+}
+
+.btn-filled {
+  @apply cursor-pointer hover:bg-blue-600 active:scale-95 border-2 border-blue-500 hover:border-blue-600 bg-blue-500 text-white px-3 py-1 rounded-md text-sm;
+}
+.btn-outlined {
+  @apply cursor-pointer hover:bg-blue-100 active:scale-95 border-2 border-blue-500 px-3 py-1 rounded-md text-sm;
+}
+
+*:focus{
+  @apply outline-0;
+}
