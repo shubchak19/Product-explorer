@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section className="flex justify-between items-center gap-10 md:flex-row flex-col-reverse mt-24 md:mt-0 px-6 md:px-10 h-screen">
+    <section className="flex justify-between items-center gap-4 md:flex-row flex-col-reverse mt-24 md:mt-0 px-6 md:px-10 h-screen">
       <div className="flex flex-col justify-center items-start gap-4 md:max-w-md">
         <h1 className="text-4xl">
           Lorem, ipsum dolor sit amet consectetur.
